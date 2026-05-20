@@ -1,0 +1,53 @@
+.trips_section {
+    .trips_section_container {
+        .trips_card {
+            background-color: #f0f1ff;
+            padding: 1em;
+            border-radius: 1em;
+
+            .trips_card_image {
+                width: 100%;
+                height: 30vh;
+                border-radius: 1em;
+                overflow: hidden;
+                margin-bottom: 1em;
+
+                img {
+                    width: 100%;
+                    height: 100%;
+                    object-fit: cover;
+                }
+            }
+
+            .trips_card_description {
+                display: flex;
+                align-items: flex-start;
+                flex-direction: column;
+                gap: .5em;
+                padding-bottom: 2.5em;
+                border-bottom: 1px solid rgba(0,0,0,0.1);
+            }
+
+            .trips_card_btn {
+                width: 100%;
+                background-color: black;
+                color: #f1f1ff;
+                text-align: center;
+                padding-block: 1em;
+                margin-top: 1em;
+                border-radius: 1em;
+                cursor: pointer;
+                text-transform: capitalize;
+            }
+        }
+    }
+}
+.ThemeEffect{
+    .trips_card{
+        background: #fff;
+        .trips_card_btn{
+            background-color: #fff;
+            color: #1f1f1f;
+        }
+    }
+}

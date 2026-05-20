@@ -1,0 +1,64 @@
+.destination_section{
+    display: flex;
+    gap: 2em;
+    flex-wrap: wrap;
+    .destination_section_cards{
+        display: flex;
+        gap: 2em;
+        align-items: center;
+        flex-wrap: wrap;
+        .destination_card{
+            width: calc((100% - 4em)/3);
+            .destination_card_image{
+                height: 40vh;
+                margin-bottom: 1.5em;
+                img{
+                    width: 100%;
+                    height: 100%;
+                    border-radius: 1em;
+                }
+            }
+            .destination_card_description{
+                display: flex;
+                flex-direction: column;
+                gap: 1em;
+                // background: red;
+                height: 10em;
+                overflow: hidden;
+                p{
+                    opacity: 0;
+                    transform: translateY(10em);
+                    transition: .4s;
+                }
+            }
+            &:hover .destination_card_description p{
+                opacity: .6;
+                transform: translateY(0);
+            }
+        }
+    }
+}
+
+.ThemeEffect{
+    .destination_section{
+        .destination_section_cards{
+            color: #fff;
+        }
+    }
+}
+
+@media (max-width: 768px) {
+    .destination_section{
+        .destination_section_cards{
+            .destination_card{
+                width: 100%;
+                .destination_card_description{
+                    p{
+                        transform: none;
+                        opacity: .6;
+                    }
+                }
+            }
+        }
+    }
+}

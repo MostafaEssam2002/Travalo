@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Euphoria+Script&family=Instrument+Sans:ital,wght@0,400..700;1,400..700&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Instrument Sans', sans-serif;
+    font-weight: 400;
+}
+::-webkit-scrollbar{
+    width: 0 ;
+}
+//  font-family: "Instrument Sans", sans-serif;
+.Europhia_font{
+    font-family: 'Euphoria Script', cursive;
+    font-weight: 400;
+    font-size: 2.5em;
+    text-transform: capitalize;
+}
+html{
+    font-size: 10px;
+}
+body{
+    transition: .4s;
+}
+h1{
+    font-size: 2.5em;
+    font-weight: 400;
+}
+h2{
+    font-size: 6em;
+    text-transform: uppercase;
+}
+h3{
+    font-size: 2em;
+}
+h4{
+    font-size: 1.8em;
+}
+h5{
+    font-size: 1.6em;
+}
+h6{
+    font-size: 1.4em;
+}
+p{
+    font-size: 1.2em;
+    line-height: 1.4em;
+}
+.y_padding{
+    padding-block: 1em;
+}
+.x_padding{
+    padding-inline: 1.5em;
+}
+.ThemeEffect{
+    background: #1f1f1f;
+}
+a{
+    text-decoration: none;
+    color: #fff;
+}
+ul{
+    list-style: none;
+
+}
+@media (min-width:768px) {
+    html{
+        font-size: 12px;
+    }
+}
+@media (min-width:1250px) {
+    html{
+        font-size: 14px;
+    }
+    .x_padding{
+        padding-inline: 5em;
+    }
+    .y_padding{
+        padding-block: 4em;
+    }
+}
+@media (min-width:1440px) {
+    html{
+        font-size: 16px;
+    }
+}
+@media (min-width:1680px) {
+    html{
+        font-size: 18px;
+    }
+}
+@media (min-width:2000px) {
+    html{
+        font-size: 20px;
+    }
+}

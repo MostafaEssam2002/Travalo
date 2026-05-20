@@ -1,0 +1,48 @@
+.video_section{
+    height: 100vh;
+    background: red;
+    background-image: linear-gradient(45deg,rgba(0,0,0,.6),rgba(0,0,0,.6)),url('https://img.magnific.com/free-photo/stony-beach-landscape_23-2151716247.jpg?t=st=1725502861~exp=1725506461~hmac=417fe6e26a3bed196bf234e893ec93a833ce169aafc79523558f7343a754070e&w=1060');
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    .video_section_icon{
+        width: 6em;
+        height: 6em;
+        border-radius: 50%;
+        background: #fff;
+        cursor: pointer;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+    }
+}
+.video_player{
+    position: fixed;
+    background: rgba(0,0,0,.6);
+    z-index: 10;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    .video_player_icon{
+        width: 3em;
+        height: 3em;
+        justify-content: center;
+        align-items: center;
+        display: flex;
+        border-radius: 50%;
+        position: absolute;
+        top: 1em;
+        right: 1em;
+        background: #fff;
+        cursor: pointer;
+    }
+}

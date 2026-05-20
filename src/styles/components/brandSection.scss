@@ -1,0 +1,26 @@
+.brand_section{
+    margin-block: 3em;
+    width: 100%;
+    // background-color: blue;
+    display: flex;
+    padding-block: 2em;
+    align-items: center;
+    // justify-content: center;
+    overflow: hidden;
+    .brand_section_container{
+        background: #f0f1ff;
+        height: 10em;
+        transform: rotate(-2deg);
+        flex-grow: 1;
+        flex-shrink: 0;
+        width: 100%;
+        overflow-y: hidden;
+        transform-origin: left;
+        .rfm-child{
+            width: 8em;
+            img{
+                width: 100%;
+            }
+        }
+    }
+}

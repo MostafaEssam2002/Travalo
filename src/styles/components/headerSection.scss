@@ -1,0 +1,18 @@
+.header_section{
+    margin-bottom:  4em;
+    &.center{
+        text-align: center;
+    }
+}
+
+.ThemeEffect{
+    .header_section{
+        color: #fff;
+    }
+}
+
+@media (max-width:1024px) {
+    .header_section{
+        margin-bottom:  1em;
+    }
+}
